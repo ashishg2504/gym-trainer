@@ -1,0 +1,129 @@
+.trainers{
+    background-color: #ededed;
+    padding-top: 8em;
+}
+.heading{
+    text-align: center;
+}
+.heading img{
+    width: 40%;
+}
+.filter-section h1{
+    text-align: center;
+}
+.filter-section{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0px auto;
+}
+.filter-box-field{
+    display: flex;
+    flex-direction: column;
+}
+.filter-box-field label{
+    margin-left: 10px;
+}
+.filter-box-1,
+.filter-box-2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.filter-box-field input,
+.filter-box-field select
+{
+    width: 10rem;
+    height: 2.3rem;
+    margin-top: 0.4rem;
+    margin-bottom: 1em;
+    border-radius: 0.6rem;
+    border: 1px solid #3164f4;
+    padding-left: 1rem;
+}
+.filter-radio{
+    display: flex;
+    flex-direction: row;
+    margin-top: .5em;
+}
+.filter-radio label{
+    margin-top: 10px;
+}
+.filter-radio input{
+    width: 1.5em;
+}
+.filter-box-3{
+    text-align: center;
+}
+hr{
+    width: 80%;
+    height: .1px;
+    background-color: #000000;
+}
+.popular-trainer{
+    width: 70%;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.trainer-profile{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 5px 5px #00000048;
+    background-color: white;
+    margin-bottom: 50px;
+}
+.ad-heading{
+    text-align: right !important;
+    margin-right: 10px;
+    color: #535353;
+}
+.trainer-profile h2{
+    text-align: center;
+    margin-top:-5%;
+    margin-bottom: 0%;
+}
+.trainer-profile img{
+    width: 60%;
+    justify-content: center;
+    margin: 0px 40px;
+}
+.trainer-profile p{
+    text-align: center;
+    color: #535353;
+    padding-top: 0%;
+    margin-top: 0%;
+}
+.trainer-pic{
+    width: 200px !important;
+    height: 250px;
+    position: relative;
+    right: 120px;
+    bottom: 250px;
+}
+.discount-banner{
+    width: 180px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 20px;
+    margin-top: 45px;
+    margin-left: 20px;
+    text-align: center;
+}
+@media screen and (max-width: 750px){
+    .filter-box-field input,
+    .filter-box-field select{
+    width: 8em;
+    }   
+    .filter-radio input{
+        width: 1em;
+    }
+}
+@media screen and (max-width: 560px){
+    .filter-box-field input,
+    .filter-box-field select{
+    width: 6em;
+    }   
+}

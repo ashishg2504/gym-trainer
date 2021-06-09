@@ -1,0 +1,94 @@
+.aboutus{
+    padding-top: 150px;
+    padding-left: 20px;
+    background: #ededed;
+}
+.about-us-content,.mission-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.about-us-content h1,
+.about-us-content p,
+.mission-content h1,
+.mission-content p
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.about-us-content img{
+    margin-top: -50px;
+}
+.female-fitness-content{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.team h1,.team p{
+    text-align: center;
+    margin-top: 0%;
+}
+.team-member{
+    width: 80%;
+    margin: 0% auto;
+    margin-top: 2%;
+}
+.member-1,.member-2,.member-3{
+    display: flex;
+}
+.member-1 img,.member-2 img, .member-3 img{
+    width: 20%;
+    height: 12em;
+}
+.member-2{
+    flex-direction: row-reverse;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    margin-left: 5%;
+}
+.text h1,.text h4,.text p{
+    text-align: left;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.member-2 .text{
+    text-align: left;
+}
+.text h1{
+    font-size: 2em;
+}
+@media screen and (max-width: 1000px){
+    .female-fitness-content{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 850px){
+    .female-fitness-content img{
+        width: 300px;
+    }
+    .member-1 img,.member-2 img, .member-3 img{
+        width: 20%;
+        height: 8em;
+    }
+}
+@media screen and (max-width: 600px){
+    .female-fitness-content{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 500px){
+    .about-us-content img{
+       width: 300px;
+    }
+}
